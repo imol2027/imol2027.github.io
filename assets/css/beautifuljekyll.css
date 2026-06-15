@@ -1103,30 +1103,37 @@ pre {
 
 .banner-header {
   position: relative;
-  width: 100vw;           /* stretch full viewport width */
-  left: 50%;              /* trick to center the 100vw box */
+  width: 100vw;
+  left: 50%;
   margin-left: -50vw;
-  height: 500px;          /* whatever height you like */
-  /*height: 60vh; */
+  height: 500px; /* or 60vh */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
+
+.banner-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15); /* increase to 0.45 if needed */
+  pointer-events: none;
+}
+
 .banner-overlay {
   position: absolute;
+  z-index: 1; /* keep text above dark layer */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
   text-align: center;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
 }
-.banner-overlay h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
+
 .banner-overlay p {
-  font-size: 1.25rem;
+  font-weight: 600; /* helps the date/location line */
 }
 
 /* Logo sizing in navbar */
