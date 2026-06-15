@@ -4,14 +4,11 @@ title: Venue
 ---
 
 <style>
-.venue-wrap { margin-top: 0.75rem; }
-.venue-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
-.venue-card { background: #fff; border: 1px solid #e6e6e6; border-radius: 8px; padding: 1rem; }
-.venue-card h3 { margin-top: 0; }
+.venue-wrap { margin-top: 0.75rem; max-width: 860px; }
 .venue-img { width: 100%; height: auto; display: block; border-radius: 6px; }
+.map-iframe { width: 100%; height: 420px; border: 0; border-radius: 6px; margin-top: 1rem; }
 .caption { font-size: 0.95rem; color: #444; margin-top: .5rem; }
-@media (max-width: 992px) { .venue-grid { grid-template-columns: 1fr; } }
-.address-block { line-height: 1.4; font-size: 1.05rem; }
+.address-block { line-height: 1.4; font-size: 1.05rem; margin-top: .5rem; }
 .badge-note { display:inline-block; font-weight:600; font-size:.85rem; padding:.2rem .45rem; border:1px solid #bbb; border-radius:.4rem; margin-left:.25rem; }
 </style>
 
@@ -19,12 +16,9 @@ title: Venue
 
 **Dipoli, Aalto University**  
 Main venue for IMOL 2027
+<div class="venue-wrap" markdown="1">
 
-<div class="venue-wrap venue-grid">
-
-<!-- IMPORTANT: markdown="1" so headings/lists inside render -->
-<div class="venue-card" style="grid-column: span 7;" markdown="1">
-### Address
+<img class="venue-img" src="/assets/img/dipoli_aalto.jpg" alt="Dipoli building, Aalto University" onerror="this.style.display='none'">
 
 <div class="address-block">
 Aalto University<br>
@@ -33,54 +27,24 @@ Otakaari 1<br>
 02150 Espoo, Finland
 </div>
 
+<div>
+  <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2151.597954267755!2d24.830766698147578!3d60.18559581454052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df525ed83e8b1%3A0xae019d711d269d25!2sDipoli!5e1!3m2!1sen!2sfi!4v1781529547711!5m2!1sen!2sfi" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
 ### Getting to Venue
 
-#### By air
-- **Helsinki Airport (HEL)** is approximately 20 km from Aalto University
-- Direct shuttle services and taxi available from the airport
-- Journey time: approximately 30-45 minutes depending on traffic
+- **By air:** Helsinki Airport (HEL) ~20 km; shuttle, taxi, or public transport (30–45 min)
+- **By rail:** Helsinki Central Station → metro/local trains to Aalto area
+- **By metro/public transport:** Metro and buses serve Otakaari area (about 30 min from city center)
+- **By car:** Campus parking available (details to be confirmed)
 
-#### By rail
-- **Helsinki central station** to Aalto area via metro or local trains
-- Regular train connections from Helsinki to other Finnish cities
+### Campus Information
 
-#### By metro/public transport
-- Aalto University is well connected by public transport from Helsinki
-- Metro and bus connections available to Otakaari area
-- Journey time from Helsinki city center: approximately 30 minutes
+- **Code of Conduct:** Attendees should follow Aalto University's policies and the symposium Code of Conduct
+- **Accessibility:** Dipoli is accessible; contact us for specific arrangements
 
-#### By car
-- Parking available on campus (details to be confirmed)
-- Easily accessible via main roads from Helsinki
+### About Espoo
 
-#### Campus Information
-- **Campus Code of Conduct**: All attendees will be expected to follow Aalto University's policies and the symposium Code of Conduct
-- **Accessibility**: Dipoli building is accessible for visitors with mobility requirements. Please contact us if you need specific accessibility arrangements.
-</div>
-
-<div class="venue-card" style="grid-column: span 5;">
-  <img class="venue-img" src="/assets/img/dipoli_aalto.jpg" alt="Dipoli building, Aalto University" onerror="this.style.display='none'">
-  <div class="caption">Dipoli — IMOL 2027 main venue at Aalto University.</div>
-</div>
-
-<div class="venue-card" style="grid-column: span 6;">
-  <h3>About Espoo and Aalto University</h3>
-  <p>
-    Espoo is a vibrant city in the Helsinki metropolitan area, known for its innovative tech scene and beautiful natural surroundings. Aalto University is one of Europe's leading research universities, combining technology, business, and arts.
-  </p>
-  <p>
-    <strong>More Information:</strong> <a href="https://www.aalto.fi/" target="_blank">Visit Aalto University website</a>
-  </p>
-</div>
-
-<div class="venue-card" style="grid-column: span 6;">
-  <h3>Travel Information</h3>
-  <p>
-    Finland is easily accessible from major European hubs through Helsinki Airport. The country is known for excellent public transportation and a welcoming environment for international visitors.
-  </p>
-  <p>
-    For visa information and travel requirements, please check the official Finnish government travel information.
-  </p>
-</div>
+Espoo is part of the Helsinki metropolitan area, known for technology, nature, and easy access to Helsinki. For more, see <a href="https://www.aalto.fi/" target="_blank">Aalto University</a>.
 
 </div>
