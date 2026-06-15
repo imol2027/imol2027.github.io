@@ -91,16 +91,6 @@
  margin-left: 10pt;
  margin-right: 10pt;
 }
-
-.nav-logo-mobile {
-  display: none;
-}
-
-.navbar-brand-logo {
-  display: inline-flex;
-  align-items: center;
-}
-
 p {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -222,42 +212,4 @@ tr:nth-child(n+1), tr:nth-child(n+2) {
 .home-main h3 {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   letter-spacing: 0.2px;
-}
-
-@media screen and (max-width: 767.98px) {
-  .navbar {
-    flex-wrap: nowrap;
-  }
-
-  .navbar-brand-logo {
-    margin-right: 0.25rem;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .nav-logo-desktop {
-    display: none !important;
-  }
-
-  .nav-logo-mobile {
-    display: block !important;
-    height: auto;
-    max-width: none;
-  }
-
-  .imol-logo.nav-logo-mobile {
-    width: 74px;
-  }
-
-  .uh-logo.nav-logo-mobile {
-    width: 74px;
-  }
-
-  .hiit-logo.nav-logo-mobile {
-    width: 48px;
-  }
-
-  .ellis-logo.nav-logo-mobile {
-    width: 66px;
-  }
 }

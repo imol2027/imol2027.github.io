@@ -1,21 +1,32 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
+<!-- NAV INCLUDE IS WORKING -->
+
+  <!--{%- if site.title-img -%}
+    <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
+  {%- elsif site.title -%}
+    <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
+  {%- endif -%}-->
+
+
   <a class="navbar-brand navbar-brand-logo" href="https://www.imol-community.org">
     <img src="{{ '/assets/img/imol_logo2.png' | relative_url }}" alt="IMOL Workshop" class="nav-logo imol-logo" />
   </a>
 
   <a class="navbar-brand navbar-brand-logo" href="https://www.aalto.fi/en" target="_blank">
-    <img src="{{ '/assets/img/logo_aalto_big.png' | relative_url }}" alt="Aalto University" class="nav-logo uh-logo d-none d-xl-inline-block" style="width: 180px; height: auto;" />
-    <img src="{{ '/assets/img/logo_aalto_mobile.png' | relative_url }}" alt="Aalto University" class="nav-logo d-inline-block d-xl-none" />
+    <img src="{{ '/assets/img/logo_aalto_big.png' | relative_url }}" alt="Aalto University" class="nav-logo uh-logo" style="width: 180px; height: auto;" />
   </a>
 
+  <!-- <a class="navbar-brand navbar-brand-logo" href="https://www.aalto.fi/en" target="_blank">
+    <img src="{{ '/assets/img/logo_aalto_3_big.png' | relative_url }}" alt="Aalto University" class="nav-logo uh-logo" style="width: 60px; height: auto;" />
+  </a> -->
+
   <a class="navbar-brand navbar-brand-logo" href="https://www.hiit.fi/" target="_blank">
-    <img src="{{ '/assets/img/hiit_150px_black_small.png' | relative_url }}" alt="HIIT" class="nav-logo hiit-logo" />
+    <img src="{{ '/assets/img/hiit_150px_black_small.png' | relative_url }}" alt="HIIT" class="nav-logo hiit-logo d-none d-md-inline-block" style="width: 110px; height: auto;" />
   </a>
 
   <a class="navbar-brand navbar-brand-logo" href="https://ellis.eu/" target="_blank">
-    <img src="{{ '/assets/img/ellis-small.png' | relative_url }}" alt="ELLIS" class="nav-logo ellis-logo d-none d-xl-inline-block" style="width: 200px; height: auto;" />
-    <img src="{{ '/assets/img/ellis_mobile_3.png' | relative_url }}" alt="ELLIS" class="nav-logo ellis-logo d-inline-block d-xl-none" />
+    <img src="{{ '/assets/img/ellis-small.png' | relative_url }}" alt="ELLIS" class="nav-logo ellis-logo d-none d-md-inline-block" style="width: 200px; height: auto;" />
   </a>
 
 
