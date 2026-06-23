@@ -5,7 +5,7 @@ title: Code of Conduct
 
 ## IMOL 2027 Code of Conduct
 
-IMOL 2027 is committed to a safe, respectful, and inclusive environment for everyone.
+IMOL 2027 is committed to a safe, respectful, and inclusive environment for everyone. Attendees must follow both [Aalto’s](https://www.aalto.fi/en/aalto-university/code-of-conduct-values-into-practice) and IMOL’s code of conduct.
 
 ### Expectations
 

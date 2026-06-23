@@ -38,17 +38,22 @@ Lumituuli auditorium, Dipoli, Otakaari 24, Aalto University, Espoo, Finland
 
 
 
-### Getting to Venue
+### Getting to the Venue
 
-- **By air:** Helsinki Airport (HEL) ~20 km; shuttle, taxi, or public transport (30–45 min)
-- **By rail:** Helsinki Central Station → metro/local trains to Aalto area
-- **By metro/public transport:** Metro and buses serve Otakaari area (about 30 min from city center)
-- **By car:** Campus parking available (details to be confirmed)
+**Aalto University** is located 15 min from downtown Helsinki, which connects to the airport in 35 min.
 
-### Campus Information
+- **By air:** Helsinki Airport (HEL); shuttle, taxi, or public transport (30–45 min).
+- **By rail:** Helsinki Central Station; metro or local trains to Aalto area.
+- **By metro/public transport:** Metro and buses serve Otakaari area (about 15-30 min from city center).
+- **By car:** Campus parking available (details to be confirmed).
 
-- **Code of Conduct:** Attendees should follow Aalto University's policies and the symposium Code of Conduct
-- **Accessibility:** Dipoli is accessible; contact us for specific arrangements
+### Accommodation
+
+Hotel recommendations will be added before registration opens. Many accommodation options in all price ranges are available in Helsinki as well as directly on Aalto campus.
+
+### Accessibility
+
+Dipoli is accessible; please contact us for specific arrangements
 
 ### About Espoo
 
