@@ -12,7 +12,7 @@ title: Venue
 .badge-note { display:inline-block; font-weight:600; font-size:.85rem; padding:.2rem .45rem; border:1px solid #bbb; border-radius:.4rem; margin-left:.25rem; }
 </style>
 
-## Symposium Venue
+<!-- ## Symposium Venue -->
 
 **Dipoli, Aalto University**  
 <!-- Main venue for IMOL 2027 -->

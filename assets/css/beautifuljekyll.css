@@ -1108,7 +1108,8 @@ pre {
   margin-left: -50vw;
   height: 500px; /* or 60vh */
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  /* background-position: center -50px; */
   background-repeat: no-repeat;
   overflow: hidden;
 }
