@@ -692,7 +692,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (min-width: 1200px) {
   .intro-header {
-    margin-top: 8.125rem;
+    margin-top: 4rem;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -1158,13 +1158,30 @@ pre {
 }
 
 /* ————————— Remove extra gap under banner ————————— */
-.intro-header {
+/* .intro-header {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 .intro-header + .main-content {
   margin-top: 0 !important;
   padding-top: 0 !important;
+}  */
+
+/* ————————— Remove extra gap under banner ————————— */
+
+/* 1) Completely hide the empty default header that's causing the ~130px gap */
+/* .intro-header {
+  display: none !important;
+} */
+
+/* 2) Control the top spacing of the main content wrapper */
+.container-md[role="main"] {
+  margin-top: 0rem !important; /* Change this value to tweak the exact distance */
+}
+
+/* 3) Ensure the specific H2 heading doesn't add extra unexpected top margin */
+h2.page-title {
+  margin-top: 0 !important;
 }
 
 
