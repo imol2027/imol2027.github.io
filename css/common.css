@@ -139,13 +139,20 @@ h4{
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+  
+  /* Add these two lines: */
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
-.organiser-name{
+
+.organiser-name {
   font-size: 16px;
+  /* Optional: Adds a little breathing room between the photo and the name */
+  /* margin-top: 15px;  */
 }
 
 @media screen and (max-width: 600px) {
-  .organiser-img{
+  .organiser-img {
     width: 30% !important;
   }
 }
