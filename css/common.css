@@ -247,10 +247,12 @@ tr:nth-child(n+1), tr:nth-child(n+2) {
 }
 
 /* Control the maximum relative sizes of the logos on larger screens */
-/* .imol-logo  { max-width: 150px; }
-.uh-logo    { max-width: 140px; }
+.imol-logo  { max-width: 150px; }
+.uh-logo    { max-width: 200px; }
 .hiit-logo  { max-width: 110px; }
-.ellis-logo { max-width: 200px; } */
+.ellis-logo { max-width: 200px; }
+
+
 
 /* Optional: reduce the gap between logos on very small screens */
 @media (max-width: 1145px) {
