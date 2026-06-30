@@ -52,7 +52,8 @@ class='speaker-affiliation'> University of Hertfordshire </p>
       <p class='organiser-role'>Local Chair</p>
       </div>
     </div>
-     </div>
+    </div>
+     <!--
     <div class="row">
             <div class="col-sm">
         </div>
@@ -65,8 +66,8 @@ class='speaker-affiliation'> University of Hertfordshire </p>
     </div>
             <div class="col-sm">
         </div>
-
-    </div>
+    -->
+  </div>
 
 </div>
 
