@@ -67,7 +67,6 @@ class='speaker-affiliation'> University of Hertfordshire </p>
             <div class="col-sm">
         </div>
     -->
-  </div>
 
 </div>
 

@@ -38,17 +38,17 @@ Lumituuli auditorium, Dipoli, Otakaari 24, Aalto University, Espoo, Finland
 
 ### Getting to the Venue
 
-**Aalto University** and its main, Otaniemi campus is located 15 min from downtown Helsinki in Espoo, part of the Helsinki metropolitan area, known for technology, nature, and easy access to Helsinki. For more, see <a href="https://www.aalto.fi/" target="_blank">Aalto University</a>. Helsinki and the Aalto campus can be easily reached: 
+**Aalto University** and its main, Otaniemi campus are located 15 min from downtown Helsinki in Espoo, part of the Helsinki metropolitan area. For more information on the university, see <a href="https://www.aalto.fi/" target="_blank">Aalto University</a>. Helsinki and the Aalto campus can be easily reached: 
 
 - **By rail from the airport:** Helsinki Airport (HEL) to the city centre by taxi (15 min), public transport (35 min) or car.
 - **By metro/public transport from Helsinki:** Metro and buses serve the Otakaari campus area (about 15-30 min from city center, stop "Aalto University").
 
 ### Accommodation
 
-Hotel recommendations will be added before registration opens. Many accommodation options in all price ranges are available in Helsinki as well as directly on Aalto campus.
+Hotel recommendations will be added before the registration opens. Many accommodation options in all price ranges are available in Helsinki as well as directly on Aalto campus.
 
 ### Accessibility
 
-Dipoli is accessible; please contact us for specific arrangements
+Dipoli is accessible; please contact us for specific arrangements.
 
 </div>
