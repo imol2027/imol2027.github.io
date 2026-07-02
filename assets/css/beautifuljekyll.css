@@ -1106,10 +1106,14 @@ pre {
   width: 100vw;
   left: 50%;
   margin-left: -50vw;
-  height: 500px; /* or 60vh */
-  background-size: cover;
-  background-position: top;
-  /* background-position: center -50px; */
+  height: 70vh;  
+  /* Use 'contain' if you want the whole image visible (might leave gaps) */
+  /* Use 'cover' if you want the container fully filled (might crop edges) */
+  background-size: cover; 
+  
+  /* Reset to center to ensure the focal point is always visible */
+  background-position: top center; 
+  
   background-repeat: no-repeat;
   overflow: hidden;
 }
