@@ -53,12 +53,12 @@ class='speaker-affiliation'> University of Hertfordshire </p>
       </div>
     </div>
     </div>
-     <!--
+     
     <div class="row">
             <div class="col-sm">
         </div>
     <div class="col-sm">
-      <img class="organiser-img" src='/assets/img/christina_sirvio.jpg'>
+      <img class="organiser-img" src='/assets/img/christina_sirvio_2.jpeg'>
       <div class="organiser-name" style="text-align: center;"> 
       Christina Sirviö <br> <p class='speaker-affiliation'>HIIT</p>
       <p class='organiser-role'>Local Chair</p>
@@ -66,7 +66,7 @@ class='speaker-affiliation'> University of Hertfordshire </p>
     </div>
             <div class="col-sm">
         </div>
-    -->
+   
 
 </div>
 
