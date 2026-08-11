@@ -1122,7 +1122,7 @@ pre {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.15); /* increase to 0.45 if needed */
+  background: rgba(0, 0, 0, 0.05); /* increase to 0.45 if needed */
   pointer-events: none;
 }
 
