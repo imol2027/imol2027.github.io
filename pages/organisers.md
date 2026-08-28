@@ -33,7 +33,7 @@ class='speaker-affiliation'> University of Hertfordshire </p>
     <div class="col-sm">
       <img class="organiser-img" src='/assets/img/maxence_hussonnois.JPG'>
       <div class="organiser-name" style="text-align: center;"> 
-      Dr. Maxence Hussonois​ <br> <p class='speaker-affiliation'> Aalto University​</p>
+      Dr. Maxence Hussonnois​ <br> <p class='speaker-affiliation'> Aalto University​</p>
       <p class='organiser-role'>Program Chair​</p>
       </div>
     </div>
